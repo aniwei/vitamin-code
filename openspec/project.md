@@ -4,7 +4,7 @@
 - Vitamin AI 单仓库，涵盖 agent 运行时、CLI、薄 `vitamin` 入口，正演进为通用 Agent 平台。
 
 ## 技术栈
-- TypeScript/Node.js，优先使用 Bun 能力（如可用）
+- TypeScript/Node.js
 - 包管理：pnpm@10.22.x，默认分支 `dev`
 - 测试：Vitest（各包 tsconfig.vitest.json 已配置）
 - CLI：yargs；服务端/路由：hono（vitamin 包已引入）；校验：zod
